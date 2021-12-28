@@ -1,0 +1,4 @@
+# Crowd-Pathfinding-and-steering-using-flow-fields
+#Introduction
+
+Crowd pathfinding and steering using flow fields is a technique that is used to solve the computational problems when moving a large amount of agents on a map (ex: crowds in Planet Coaster). Through the use of these dynamic flow field tiles a more modern steering pipeline can be achieved with features such as obstacle avoidance, flocking, dynamic formations, crowd behavior, and support for arbitrary physics forces. This can be achieved without a heavy load on the CPU because it does not have to compute every individual path per agent. Agents will also move more instantly despite the complexity of the path, giving the AI and user immediate feedback. A paper made by Elijah Emerson goes deep into the fundamentals of this technique and I will use this as a base for the implementation in a pathfinding project.
